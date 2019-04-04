@@ -16,7 +16,7 @@
 function randomInt(min, max) { // Defines function with parameters, lowest and size
 	return Math.floor(Math.random() * (max - min + 1)) + min; // Creates a random integer
 }
-var randomQ = randomInt(0, 10); // Stores random integer in randomQ
+var randomQ = randomInt(0, 9); // Stores random integer in randomQ
 
 var quoteElem = document.getElementsByTagName("quote")[0]; // Reference quote element & stored in variable
 
